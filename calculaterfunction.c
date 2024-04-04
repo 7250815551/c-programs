@@ -9,7 +9,8 @@ int mul(num1,num2)
 int div(num1,num2)
 { return num1/num2;}
 int per(num1,num2)
-{return  (num1*num2)/100;}
+{
+  return  ((float)num1/(float)num2)*100;}
 int main()
 {
   int num1,num2;
@@ -19,7 +20,7 @@ int main()
   printf("1.+\n2.-\n3.*\n4./\n5.%%\n");
   printf("Enter your choice:");
   scanf("%d",&choice);
- // printf("%d",choice);
+ 
   switch(choice){
     case 1 :
       printf("The sum is %d\n", add(num1, num2));
@@ -34,7 +35,7 @@ int main()
       printf("the div is %d\n",div(num1,num2));
       break;
     case 5 :
-      printf("the per is %d\n",per(num1,num2));
+      printf("the percentage is %d\n",per(num1,num2));
       break;
     default :
       printf("Invalid choice");
