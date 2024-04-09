@@ -1,14 +1,14 @@
 #include<stdio.h>
 
-int  add(num1,num2)
+int  add(int num1,int num2)
 {return num1+num2;}
-int sub(num1,num2)
+int sub(int num1,int num2)
 {return num1-num2;}
-int mul(num1,num2)
+int mul(int num1,int num2)
 {return num1*num2;}
-int div(num1,num2)
+int div(int num1,int num2)
 { return num1/num2;}
-int per(num1,num2)
+int per(int num1,int num2)
 {return  (num1*num2)/100;}
 int main()
 {

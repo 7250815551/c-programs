@@ -74,11 +74,11 @@ int  main(){
     halfUD(length);
    
  }
-  // else if(triangle==2&&pattern==3){
-  //   for(int i=0;i<=length;i++){
-  //       for(int j=0;j<=i;j++){
-  //           printf("* ");}
-  //      printf("\n "); 
-  //   }}
+     else if(triangle==2&&pattern==3){
+    for(int i=0;i<=length;i++){
+        for(int j=0;j<=i;j++){
+           printf("* ");}
+       printf("\n "); 
+     }}
 
 }
